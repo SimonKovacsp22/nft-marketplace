@@ -15,7 +15,7 @@ const CreatorCard = ({ rank, creatorImage, creatorName, creatorEths}) => {
         </div>
         <div className='my-2 flex justify-center'>
             <div className='relative w-20 h-20 minlg:w-28 minlg:h-28'>
-                <Image className='object-cover rounded-full' src={creatorImage} alt={creatorName + 'temp'} />
+                <Image className='object-contain rounded-full' src={creatorImage} alt={creatorName + 'temp'} />
                 <div className='absolute w-4 h-4 minlg:w-7 minlg:h-7 bottom-2 -right-0'>
                     <Image src={images.tick} className="object-contain" alt='tick' />
                 </div>

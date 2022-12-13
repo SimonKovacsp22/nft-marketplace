@@ -62,7 +62,7 @@ const NFTDetails = () => {
         <div className="flex flex-row items-center mt-3">
           <div className="relative w-12 h-12 minlg:w-20 minlg:h-20 mr-2">
             <Image
-              className="object-cover rounded-full"
+              className="object-contain rounded-full"
               src={images.creator1}
               alt="creator"
             />
