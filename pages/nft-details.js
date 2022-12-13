@@ -42,7 +42,7 @@ const NFTDetails = () => {
         <div className="relative w-557  sm:w-300 sm:h-300 h-557 rounded-xl">
           <Image
             src={nft.image}
-            className="object-cover rounded-xl shadow-lg w-300"
+            className="object-contain rounded-xl shadow-lg w-300"
             fill
             alt={nft.name}
           />
