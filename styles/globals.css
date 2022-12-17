@@ -125,6 +125,11 @@
     transition: opacity .25s  ease-in;
 }
 
+.web3modal-modal-lightbox {
+    display: none !important;
+}
+
+
 @keyframes fadeIn {
     from {
         opacity: 0;

@@ -3,7 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/listed-nfts": "pages/listed-nfts.js",
-  "/my-nfts": "pages/my-nfts.js",
-  "/create-nft": "pages/create-nft.js",
-  "/": "pages/index.js"
+  "/": "pages/index.js",
+  "/my-nfts": "pages/my-nfts.js"
 }
